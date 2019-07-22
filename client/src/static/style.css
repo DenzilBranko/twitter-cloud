@@ -1,0 +1,59 @@
+.searchBox {
+    margin-left: 25%;
+    top:10%
+}
+/* Style the search field */
+.topnav input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    right: 25px;
+    left: 20%;
+    width: 25%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  .topnav  button {
+    float: left;
+    width: 8%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  .topnav button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  .topnav::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .list-display {
+    display: flex;
+  flex-direction: row;
+   justify-content: center;
+   margin: 5%;
+    border: 1px solid green;
+    padding: 10px;
+   
+    
+   
+  } 
+  
+
+  .unread-tweet {
+    color: red;
+    float: right;
+    top:0px; 
+  }
+
